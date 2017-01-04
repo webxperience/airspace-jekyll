@@ -21,7 +21,7 @@ subtitle: "Desenvolvimento web e consultoria"
 # root of your server.
 # baseurl: "/" # the subpath of your site
 url: "http://webxperience.github.io" # the base hostname & protocol for your site
-baseurl: "/webxperience"
+baseurl: ""
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
