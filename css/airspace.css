@@ -75,6 +75,14 @@ header .navbar {
 header .navbar-brand {
   padding-top: 5px;
 }
+header .navbar-brand h1 {
+  color: #777;
+  text-shadow: 1px 1px #D7D7D7;
+  margin: 0;
+}
+header .navbar-brand h1 i {
+  color: #E9353C;
+}
 header .navbar-default {
   background: none;
   border: 0px;

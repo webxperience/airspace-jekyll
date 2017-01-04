@@ -175,6 +175,12 @@ px      68    160    252    */
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  header .navbar-brand {
+    margin: 10px 0;
+  }
+  header .navbar-brand h1 {
+    font-size: 26px;
+  }
   #slider {
     padding-top: 90px;
     padding-bottom: 100px;
