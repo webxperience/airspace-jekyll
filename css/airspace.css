@@ -3,7 +3,7 @@
  * In airspace, it is called style.css
  * However, style.css now holds additional styles for this jekyll port. (Not written by ThemeFisher)
  * The original style.css is now called airspace.css
- * 
+ *
  */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
@@ -792,11 +792,14 @@ footer p {
   line-height: 25px;
   color: #919191;
 }
+footer p#themefisher-copyright {
+  display: none;
+}
 footer a {
   color: #595959;
 }
 footer .footer-manu {
-  padding-bottom: 25px;
+  /*padding-bottom: 25px;*/
 }
 footer .footer-manu ul {
   margin: 0px;
