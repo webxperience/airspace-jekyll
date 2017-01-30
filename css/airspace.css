@@ -698,6 +698,9 @@ font header .navbar-default .navbar-nav li a:hover {
 .address-block li {
   margin-bottom: 20px;
 }
+.address-block li a {
+  color: inherit;
+}
 .address-block li i {
   margin-right: 15px;
   font-size: 20px;
