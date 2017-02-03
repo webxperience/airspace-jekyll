@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 
 	$("#testimonial-slider").owlCarousel({
-	    paginationSpeed : 500,      
+	    paginationSpeed : 500,
 	    singleItem:true,
 	    autoPlay: 3000,
 	});
@@ -41,13 +41,17 @@ $(document).ready(function(){
 	// Counter
 
 	$('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
+    delay: 10,
+    time: 1000
+  });
 
-
+	$("a.slider-link").on("click", function(e) {
+    e.preventDefault();
+    if($(this).attr('data-href')) {
+	    target = $(this).data('href');
+      $("html, body").animate({
+        scrollTop: $("#"+target).offset().top
+      });
+    }
+	});
 });
-
-
-
-
