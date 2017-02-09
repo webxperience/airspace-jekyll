@@ -377,20 +377,20 @@ px      68    160    252    */
     padding-top: 30px;
   }
   /*--
-	features-contact Start 
+	features-contact Start
 --*/
   #features-contact .block ul li {
     display: block;
     width: 100%;
   }
   /*---------------------------------------------
-					contact close 
+					contact close
 -----------------------------------------------*/
   /*--
-	footer Start 
+	footer Start
 --*/
   footer .footer-manu {
-    display: none;
+    /*display: none;*/
   }
 }
 /*		Wide Mobile Layout: 480px.
