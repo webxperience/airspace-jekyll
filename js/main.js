@@ -46,12 +46,14 @@ $(document).ready(function(){
   });
 
 	$("a.slider-link").on("click", function(e) {
-    e.preventDefault();
-    if($(this).attr('data-href')) {
-	    target = $(this).data('href');
-      $("html, body").animate({
-        scrollTop: $("#"+target).offset().top
-      });
+    if(window.location.pathname == "/") {
+      e.preventDefault();
+      if($(this).attr('data-href')) {
+        target = $(this).data('href');
+        $("html, body").animate({
+          scrollTop: $("#"+target).offset().top
+        });
+      }
     }
 	});
 });
